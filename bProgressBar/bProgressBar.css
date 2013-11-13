@@ -1,0 +1,38 @@
+.bProgressBar {
+    position: relative;
+    height: 17px;
+    margin: 1em 0;
+    overflow: hidden;
+    text-align: center;
+    line-height: 18px;
+    color: #13E4BB;
+    background: #F2F2F2;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px 0 0 9px;
+}
+.bProgress {
+    background: url("images/progress.png") repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    opacity: 0.7;
+    -webkit-border-radius: 9px 0 0 9px;
+    -moz-border-radius: 9px 0 0 9px;
+    border-radius: 9px 0 0 9px;
+    -webkit-transition: width .9s linear;
+    -moz-transition: width .9s linear;
+    -o-transition: width .9s linear;
+    transition: width .9s linear;
+}
+.bProgressText {
+    position: relative;
+    padding: 0 .5em;
+    color:  #257226;
+    background: #F2F2F2;
+    background: rgba(242,242,242,.6);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+}
